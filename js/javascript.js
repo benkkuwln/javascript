@@ -17,3 +17,4 @@ test.innerHTML = "Hello Aliens";
 var test2 = document.getElementById("test2")
 var oldText = test2.innerHTML
 test2.innerHTML = "Not My First Script";
+

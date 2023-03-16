@@ -8,18 +8,17 @@
 </head>
 <body>
     
+<h1 id="welcome"></h1>
 
-    <h1>Your input was:</h1>
-    <h3 id="custominput">_______</h3>
+<script>
 
-    <script>
+var name = prompt("What is your name?")
+var welcomeNode = document.getElementById("welcome")
 
-    var name = prompt("What is your name?")
-    var h3Node = document.getElementById("custominput")
-    h3Node.innerText = name.toLowerCase()
-    console.log(name)
-
-    </script>
+if(name.toLowerCase() == "benkku") {
+    welcomeNode.innerText = "Welcome to your website";
+}
+</script>
 
 </body>
 </html>
