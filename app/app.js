@@ -69,20 +69,19 @@ function getRemainingTime() {
     // set values array;
     const values = [days, hours, minutes, seconds];
 
-    function format(item) {
-        if (item < 10) {
-            return (item = `0${item}`);
-        }
-        return item
-    }
-
     items.forEach(function(item, index){
         item.innerHTML = format(values[index]);
     });
     if(t< 0){
         clearInterval(countdown);
-        deadline.innerHTML = `<h4 class"expired">Sorry, this giveaway has ended.</h4>`;
+        deadline.innerHTML = `<h4 class="expired">Sorry, this giveaway has ended.</h4>`;
     }
+}
+function format(item) {
+    if (item < 10) {
+        return (item = `0${item}`);
+    }
+    return item
 }
 // countdown
 let countdown = setInterval(getRemainingTime, 1000);
