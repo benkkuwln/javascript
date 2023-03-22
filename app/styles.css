@@ -38,10 +38,10 @@ Variables
   --clr-grey-9: #9f91b3;
   --clr-grey-10: #d5cae6;
   --clr-white: #e8e1f2;
-  --clr-red-dark: hsl(0, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-red-dark: #bb2525;
+  --clr-red-light: #e66b6b;
+  --clr-green-dark: #25bb32;
+  --clr-green-light: #6be675;
   --clr-black: #222;
   --clr-gold: #c59d5f;
   --ff-primary: "Roboto", sans-serif;
